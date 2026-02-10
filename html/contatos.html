@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐻‍❄️ Polar Bear Coffee</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!--Cabeçalho-->
+    <div class="header">
+        <div class="logo">
+            <a href="../html/index.html">
+               <img src="../img/logo.png" alt="Logo Polar Bear Coffee"> 
+            </a>
+            <h1>Polar Bear Coffee</h1>
+        </div>
+
+        <nav class="menu">
+            <a href="../html/index.html">Página Inicial</a>
+            <a href="../html/empresa.html">Empresa</a>
+        </nav>
+    </div>
+    <h2>Faça seu pedido:</h2>
+
+    <form action="#" method="post" class="form-pedido">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade">
+
+        <label for="produto">Produto:</label>
+        <select id="produto" name="produto" required>
+            <option value="">Selecione um produto</option>
+            <option value="produto1">Arctic Hot Cocoa</option>
+            <option value="produto2">Polar Espresso Classic</option>
+            <option value="produto3">Iced Polar Latte</option>
+            <option value="produto4">IWarm Amber Tea</option>
+        </select>
+
+
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" value="1" required>
+
+
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+
+
+        <div class="botoes">
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Apagar" id="apagar">
+        </div>
+
+    </form>
+
+    <!--Rodapé-->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="../html/index.html" class="footer-logo">
+                <img src="../img/logo.png" alt="Polar Bear Coffee">
+                <span>Polar Bear Coffee</span>
+            </a>
+
+            <div class="footer-redes">
+                <a href="https://www.instagram.com" target="_blank">
+                    Instagram
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    Facebook
+                </a>
+            </div>
+        </div>
+        <p class="footer-copy">
+            © 2026 Polar Bear Coffee — Todos os direitos reservados
+        </p>
+    </footer>
+</body>
+</html>
