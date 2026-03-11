@@ -37,7 +37,6 @@ O objetivo desse site é demonstrar habilidades de:
 ## 🚀 Funcionalidades
 
 - Exibição do cardápio de cafés e bebidas  
-- Layout responsivo  
 - Interface simples e moderna  
 - Seção com informações da cafeteria  
 
