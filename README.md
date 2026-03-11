@@ -54,8 +54,8 @@ O objetivo desse site é demonstrar habilidades de:
 ### Espaço do Cliente
 ![Compra](img/compra.png)
 
-### Saúde & Bem-Estar
-![Empresa(img/empresa.png)
+### Empresa
+![Empresa](img/empresa.png)
 
 ---
 
