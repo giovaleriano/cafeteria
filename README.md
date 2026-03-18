@@ -10,7 +10,7 @@ O objetivo do projeto é apresentar um **cardápio digital de cafeteria** com um
 
 Acesse o site online:
 
-🔗 https://giovaleriano.github.io/cafeteria
+🔗 https://giovaleriano.github.io/cafeteria-layout
 
 ---
 
